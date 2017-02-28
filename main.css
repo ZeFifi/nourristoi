@@ -1,3 +1,7 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
 .container-fluid {
   width: 100%;
   margin: 0;
@@ -11,7 +15,7 @@
 }
 
 header {
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 
 .header-background {
@@ -30,7 +34,6 @@ header {
 
 .top-menu {
   width: 100%;
-  font-family: 'Muli', sans-serif;
   font-size: 16px;
 }
 
@@ -76,4 +79,31 @@ header {
 .stores img {
   margin-top: 235px;
   width: 10%;
+}
+
+/*middle-content*/
+.middle-content {
+  text-align: center;
+  margin-top: 115px;
+}
+.middle-content p {
+  font-size: 30px;
+  color: #D70F64;
+  line-height: 0.2;
+}
+
+.middle-content h2 {
+  text-transform: uppercase;
+  font-size: 39px;
+  margin-bottom: 50px;
+}
+
+.restoselection img {
+  width: 15%;
+  margin-top: 35px;
+}
+
+.cityselection img {
+  width: 80%;
+  margin-top: 22px;
 }
