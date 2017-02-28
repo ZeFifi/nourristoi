@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
 .header-background {
   background-image: url(img/header.jpg);
   margin-left: 0;
@@ -15,6 +25,7 @@
   height: 100vh;
   text-align: center;
   padding-top: 10px;
+  color: white;
 }
 
 .top-menu {
@@ -33,4 +44,36 @@
 .language {
   margin-right: 35px;
   color: white;
+}
+
+.search {
+  padding-top: 140px;
+  color: white;
+}
+
+.highlight {
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.header-choices {
+  width: 100%;
+}
+
+.cta-header {
+  background: #D70F64;
+  border: #D70F64;
+  color: white;
+  text-transform: uppercase;
+}
+
+.cta-header:hover {
+    color: #fff;
+    background: #BF165B;
+  }
+
+.stores img {
+  margin-top: 235px;
+  width: 10%;
 }
